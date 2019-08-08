@@ -4,6 +4,8 @@
 ```
 docker-compose up [--build]
 ```
+where `[]` denote an optional parameter.
+
 ## How to test:
 Open the browser / or use `curl` for the following addresses:
 ```
