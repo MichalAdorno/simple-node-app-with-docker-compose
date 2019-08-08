@@ -1,0 +1,11 @@
+{
+    "name" : "myapp",
+    "version" : "0.0.1-TEST",
+    "dependencies": {
+        "express": "*",
+        "redis": "2.8.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}

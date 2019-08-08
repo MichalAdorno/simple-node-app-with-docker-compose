@@ -1,0 +1,12 @@
+version: '3'
+services:
+  redis-server:
+    image: 'redis'
+  my-app-1:
+    build: .
+    ports:
+      - "8077:8080"
+  my-app-2:
+    build: .
+    ports:
+      - "8078:8080"
